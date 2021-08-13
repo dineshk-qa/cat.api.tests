@@ -11,5 +11,5 @@ This project contains automated APi tests with the use of supertest & jest modul
 Test report is generated in html and xml junit formats and are available at `./reports` directory
 
 ### CI pipeline
-This project contain [github Actions](https://github.com/dineshk-qa/cat.api.tests/actions) for running tests in pipeline on every commit.
+This project contains [github Actions](https://github.com/dineshk-qa/cat.api.tests/actions) for running tests in pipeline on every commit.
 It also contains a demo gitlab pipeline config to execute tests in dev/staging env
