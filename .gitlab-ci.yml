@@ -1,0 +1,31 @@
+stages:
+  - dev-tests
+  - staging-tests
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - ./node_modules/
+
+image: node:latest
+
+before_script:
+  - npm ci
+
+
+api-tests-dev:
+  stage: dev-tests
+  script:
+    - npm run test:dev  
+  artifacts:
+    paths:
+      - reports
+  when: manual
+
+api-tests-staging:
+  stage: dev-tests
+  script:
+    - npm run test:staging  
+  artifacts:
+    paths:
+      - reports
