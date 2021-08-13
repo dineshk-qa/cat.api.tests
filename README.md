@@ -11,4 +11,5 @@ This project contains automated APi tests with the use of supertest & jest modul
 Test report is generated in html and xml junit formats and are available at `./reports` directory
 
 ### CI pipeline
-this project also contains a demo gitlab pipeline config to execute tests in dev/staging env
+This project contain github Actions for running tests in pipeline.
+It also contains a demo gitlab pipeline config to execute tests in dev/staging env
