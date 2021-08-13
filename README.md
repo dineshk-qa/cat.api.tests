@@ -1,6 +1,7 @@
 # Cat API functional tests 
 
-This project contains automated APi tests with the use of supertest & jest modules
+This project contains automated APi tests with the use of supertest & jest modules.
+This project is based on a [bolierplate generators](https://www.npmjs.com/package/generator-api-tests-zen) created by me 
 
 ### To Run Tests
 `npm install` to install dependencies
