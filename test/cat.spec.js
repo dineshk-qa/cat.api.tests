@@ -13,7 +13,7 @@ describe('Cat Api Tests', () => {
   beforeAll(async () => {
     authHeader = await base.authHeader();
   });
-  describe('Save Favuorite', () => {
+  describe('Save Favourite', () => {
     let postResponse;
 
     beforeAll(async () => {
